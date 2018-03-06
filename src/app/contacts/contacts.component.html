@@ -1,0 +1,15 @@
+<h2>Contacts</h2>
+
+<div>
+  <button (click)="load()">Load Contacts</button>
+</div>
+
+<div *ngIf="state.loading">
+  Loading ...
+</div>
+
+<ul>
+  <li *ngFor="let contact of state.all">
+    <span>{{contact.name}}</span>
+  </li>
+</ul>

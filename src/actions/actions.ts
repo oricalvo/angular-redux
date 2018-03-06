@@ -1,0 +1,5 @@
+export const COUNTER_INC = "COUNTER_INC";
+export const COUNTER_DEC = "COUNTER_DEC";
+
+export const CONTACTS_BEGIN_LOAD = "CONTACTS_BEGIN_LOAD";
+export const CONTACTS_END_LOAD = "CONTACTS_END_LOAD";
